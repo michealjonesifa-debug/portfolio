@@ -1,0 +1,14 @@
+@charset "utf 8";
+/* Micheal Jones Aug. 7, 2026 Lab 9 flexbox */
+/* resetting the browser settings */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li{
+    text-decoration: none;
+}

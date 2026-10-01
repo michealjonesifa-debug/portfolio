@@ -1,0 +1,85 @@
+/* Micheal Jones Sept. 11, 2026 Lesson 19 movie quiz  */
+
+/* layout for the movie-quiz.html */
+#quiz-container {
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem
+}
+
+/* style of the movie-quiz.html */
+body {
+    background-color: #1f2a24;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+#litte-body {
+    width: 80%;
+    min-width: 600px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #eee8d5;
+    border: 3px solid #5c4528;
+}
+
+header {
+    background-color: #3d4a36;
+    color: white;
+    text-align: center;
+    padding: 4%;
+}
+
+main {
+    padding: 2%;
+}
+
+main > p {
+    text-align: center;
+}
+
+#quiz-container section {
+    background-color: #f7f3e6;
+    border: 2px solid #8b7355;
+    border-radius: 6px;
+    padding: 4%;
+    margin-bottom: 1%;
+}
+
+#quiz-container section > p {
+    font-weight: bold;
+}
+
+ol{
+    padding-left: 5%;
+}
+
+li {
+    margin: 2% 0 0 0;
+}
+
+button {
+    display: block;
+    margin: 3% 40% 2% 40%;
+    padding: 2% 5%;
+    font-size: medium;
+    font-weight: bold;
+    background-color: #5c4528;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    /* found this on accident and its probably going in everything from now on if possible */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3d4a36;
+}
+
+footer {
+    background-color: #3d4a36;
+    color: white;
+    text-align: center;
+    padding: 2%;
+}

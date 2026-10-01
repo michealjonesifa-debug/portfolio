@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+/* Lesson 14 forms, Micheal Jones, August 24 2026 */
+/* layout for signup.html */
+fieldset{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#form-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    padding: 1%;
+}
+#sign-up{
+    width: 15%;
+    justify-self: end;
+}
+#cancel{
+    width: 15%;
+    justify-self: start;
+}
+input, textarea, select{
+    width:65%;
+    justify-self: start;
+    margin: 2%;
+}
+label{
+    width: 75%;
+    justify-self: end;
+    margin:2%;
+}
+
+
+/* style for signup.html */
+form{
+    background: linear-gradient(90deg, #9FB7C5, #AFC8C5, #D8E8E5);
+    border: 2px solid black;
+}
+legend{
+    width:100%;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color:darkblue;
+    color: white;
+    padding-left: 2%;
+    font-size: large;
+}
+main>section{
+    margin:2%;
+    font-size: large;
+    border: 2px solid burlywood;
+    padding: 1rem
+}
+h2{
+    margin:2%
+}

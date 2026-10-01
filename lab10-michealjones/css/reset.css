@@ -1,0 +1,13 @@
+/* Micheal Jones Aug. 12, 2026 Lab 10 Artist Showcase */
+/* resetting the browser settings */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    text-decoration: none;
+}

@@ -1,0 +1,28 @@
+/* Micheal Jones Aug. 7, 2026 Lab 9 flexbox */
+/* layout im using in all pages */
+main{display: flex;}
+h1,nav {text-align: center;}
+nav ul li{
+    display: inline;
+    margin: 10px;
+}
+h1{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+/* styling that im using in all pages */
+header{    
+    background-image: url(../images/mario-castle-texture.png);
+    height: 100px;
+}
+nav a{
+    color:cyan;
+    font-weight: 700;
+}
+nav a:visited{
+    color: red;
+    font-weight: 700;
+}
+nav a:hover{
+    text-shadow: 3px 5px 0px black
+}

@@ -1,0 +1,14 @@
+@charset "utf 8";
+/* Micheal Jones Sept 28, 2026 Lab 23, Space quest*/
+/* resetting the browser settings */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li{
+    text-decoration: none;
+}

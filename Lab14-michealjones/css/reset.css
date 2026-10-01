@@ -1,0 +1,18 @@
+/* a reset template */
+@charset "utf-8";
+
+/* Lab 14 forms, Micheal Jones, August 24 2026 */
+
+*{
+   margin: 0px;
+   padding: 0px;
+   line-height: 1;
+   font-size: 100%;
+   box-sizing: border-box;
+}
+nav ul a{
+   text-decoration: none;
+}
+nav ul{
+   list-style-type: none;
+}

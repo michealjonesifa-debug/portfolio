@@ -1,0 +1,39 @@
+/* Micheal Jones Aug. 7, 2026 Lab 9 flexbox */
+/* layout of elements */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1400px;
+    margin: auto;
+}
+section {
+    display: flex;
+    width: 95%;
+    border: 1px solid #ff2bd6;
+    background-color: #11111b;
+    box-sizing: border-box;
+}
+.img-box {
+    width: 20%;
+    margin-top: 1%;
+    overflow: hidden;
+}
+.article-box {
+    width: 70%;
+    margin-top: 1%;
+    padding: 2%;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+body {
+    background-color: #11111b;
+    color: white;
+}
+h1 {color: cyan;}
+h2 {color: #ff3b3b;}
+p {color: #eeeeee;}

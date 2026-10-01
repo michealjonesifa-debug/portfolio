@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" type="text/css"/>
+    <link rel="stylesheet" href="./css/style.css" type="text/css"/>
+    <title>Document</title>
+    <!-- Micheal Jones, Sept.28, 2026, Lab23 Space captaining -->
+  </head>
+  <body>
+    <div id="little-body">
+      <header>
+        <h1>Space Station Alpha</h1>
+        <nav>
+          <ul>
+            <li><a href="#captains-log">Captains log</a></li>
+            <li><a href="#shields">Shields</a></li>
+            <li><a href="#engines">Engines</a></li>
+            <li><a href="#comms">Communications</a></li>
+            <li><a href="#bridge">bridge</a></li>
+            <li><a href="#navigation">Navigation</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section id="captains-log">
+          <div id="captain-normal" class="captain">
+            <h2>Captain's Log</h2>
+            <p>
+              Upon entering the bridge you get an alert from your on board
+              security ai.
+            </p>
+            <p class="speech">
+              "Ah, Captain, Good to see you awake, there are a few things we
+              need your final check on before he head back to Earth. it also
+              might be good to take a look around you ship before you get
+              started. Don't worry I know you like to be very thorough but
+              everything has been checked and double checked it could just use
+              your all clear. hmm thats weird something appeared on the radar it
+              looks like nothing but I'll have a full report as soon as you are
+              done checking the ship"
+            </p>
+            <ol>
+              <li>Check Fuel Reserves (navigation)</li>
+              <li>Ask engineers about the engine (engines)</li>
+              <li>confirm shields integrity (shields)</li>
+              <li>
+                Send the all clear to Earth to confirm the return home
+                (communications)
+              </li>
+            </ol>
+            <p>press this button below once tasks have been completed</p>
+            <button id="attack">tasks complete</button>
+          </div>
+          <div id="captain-damaged">
+            <h2>Captain's Log</h2>
+            <p>
+              You had barely made it to the bridge after giving your station the
+              all clear when, the ship rocks and the alarm blares, another alert
+              from the security ai sometimes it easy to forget it's an ai but
+              the calm voice in this choas is a good reminder.
+            </p>
+            <p class="speech">
+              "Captain, unfortunately I made a mistake, the unknown blip on the
+              radar turned out to be some sort of hostile vessel. The ship has
+              sustained heavy damage, although the hostile vessel has been dealt
+              with, I don't think the ship can fly in this condition I am also
+              having trouble accessing the damage report, so you will have to
+              manually go through and check on the systems"
+            </p>
+            <button id="operational">Check ship</button>
+          </div>
+        </section>
+        <section id="shields">
+          <div id="shield-normal">
+            <h2>Shields</h2>
+            <p>
+              You had into the shields room, its a cramped space with heavy
+              temperature control so that the reactors dont overheat, inside you
+              see two engineers playing dice. They both move to attention when
+              you enter and attempt to hide the dice. The senior officer speaks.
+            </p>
+            <p class="speech">
+              "Hello, captain we were just taking a short break, the shields are
+              running normally nothin to worry about here." You confirm with
+              your own eyes just in case, but come to the same conclusion. You
+              do keep in mind that you found them playing dice but you just keep
+              it in mind for later.
+              <a href="#captains-log">Return to Captain's Log</a>
+            </p>
+          </div>
+          <div id="shield-damaged">
+            <h2>Shields</h2>
+            <p>
+              You scramble through the ship, everythings still shaking and that
+              alarm feels more annoying than useful at the moment. As you enter
+              the shields room you see the senior engineer is on the floor, she
+              doesnt look conscious, a cold pack on her head and slow breathing.
+              The junior engineer is rushing to fiddle with dials and gauges,
+              its not something you are super familiar with, you can read the
+              reports but the actual job is not something you understand.
+            </p>
+            <p class="speech">
+              "Oh captain, I'm not sure what hit us but it destroyed the shields
+              some of the generators aren't working still. Can you just read the
+              ships diagnostics, this isn't normally a one person job. I just
+              need to know which ones are damaged so I can repair them"
+              <a href="#captains-log">Return to Captain's Log</a>
+            </p>
+            <button id="shields-display">Open shields report</button>
+          </div>
+        </section>
+        <section id="engines">
+          <div id="engine-normal">
+            <h2>Engine Room</h2>
+            <p>
+              As you enter the engine room, it's always a much different
+              experience than the shields room, you can see mechanics and
+              engineers running around as the senior engineer yells orders over
+              an intercom, he stops when he notices smiling. He always give you
+              a jekyll and hyde feel they way he screams and yells and then
+              becomes so jovial.
+            </p>
+            <p class="speech">
+              "Captain, what brings you to our little slice of paradise - HEY I
+              SEE YOU OVER THERE GET BACK TO WORK - sorry the newbies aren't
+              quite filled with fear yet" You ask how the engines are faring and
+              if they are ready for the trip home, he laughs "I keep these
+              engines running at top performance, its going to be such a smooth
+              ride, you won't even realize we're moving." You're perfectionism
+              tells you to check the reports but you also know he gets very
+              annoyed when you don't trust him, so you just smile and leave.
+              <a href="#captains-log">Return to Captain's Log</a>
+            </p>
+          </div>
+          <div id="engine-damaged">
+            <h2>Engine Room</h2>
+            <p>
+              You hear shouting before you even enter the room, The senior
+              officers table is empty, you can still hear him yelling orders.
+              You head into the engine more and see him working on stuff with
+              his own hands as he yells, it seem wrong to think at this moment
+              but it's the first time you've seen him get his hands dirty. He
+              notices you and doesnt acknowledge you right away.
+            </p>
+            <p class="speech">
+              "a few of my guys are injured, what even happened up there" you
+              fill him in a little hoping honesty is the right way to go but not
+              wanting to cause a panic "This is why you don't have an ai doing
+              security, stupid robot going to get us all killed, do you mind
+              going up to my booth and checking whats operational, I got a few
+              things to finish up" You head back to his office and look at the
+              display <a href="#captains-log">Return to Captain's Log</a>
+            </p>
+            <button id="engine-display">Check engine display</button>
+          </div>
+        </section>
+        <section id="comms">
+          <div id="comms-normal">
+            <h2>Communications office</h2>
+            <p>
+              As you open the door the communications officer spins in his
+              chair, he looks bored. His face lights up at the company, he's
+              alway kind of reminded you of a puppy.
+            </p>
+            <p class="speech">
+              "Captain, what can I do for you, need a hand with something, maybe
+              looking to send a message, ooh are we getting ready for battle"
+              you try your best to calm him as you say you just need to tell the
+              home base on earth you are headed home, he seems a little
+              disappointed but turns hiw chair back around "Oh of course, the
+              only automated message, hey if you ever have time I'm always here
+              for a coffee and chat." You don't answer as you head to your next
+              check. <a href="#captains-log">Return to Captain's Log</a>
+            </p>
+          </div>
+          <div id="comms-damaged">
+            <h2>Communications office</h2>
+            <p>
+              You struggle with the door, it seems to be stuck, you get it open
+              a little and hear a scream barely dodging a fire extinguisher
+              being swung at you. You swear as you fall backwards, realizing its
+              you the communications officer opens the door looking bashful.
+            </p>
+            <p class="speech">
+              "Sorry, captain, the AI said we were under attack and I assumed
+              they had boarded by now." You are still pretty annoyed as you fill
+              him in a little, he gets more and more embarrassed upon finding
+              out how short the attack was "Well, our long range communications
+              are still down but if you want to check which stations are in
+              range I can patch us through" You head over to the desk, not
+              bothering to grab the chair that was previously wedged to block
+              the door. <a href="#captains-log">Return to Captain's Log</a>
+            </p>
+            <button id="comms-display">Check Comms display</button>
+          </div>
+        </section>
+        <section id="bridge">
+          <div id="bridge-normal">
+            <h2>The Bridge</h2>
+            <p>
+              You step onto the bridge and find the crew working quietly at
+              their stations. The large viewing window shows nothing but empty
+              space, while the various displays around the room show the ship
+              continuing steadily toward Earth. Your first officer notices you
+              enter and gives you a nod.
+            </p>
+            <p class="speech">
+              "Morning, Captain. Everything looks pretty quiet up here.
+              Navigation hasn't reported any problems, and there's nothing
+              unusual on the sensors. Honestly, I think everyone is just ready
+              to get home." You take a quick look over the bridge displays
+              yourself. Everything seems normal, although one of the radar
+              screens briefly flickers before returning to normal. You decide
+              it's probably nothing.
+              <a href="#captains-log">Return to Captain's Log</a>
+            </p>
+          </div>
+          <div id="bridge-damaged">
+            <h2>The Bridge</h2>
+            <p>
+              The bridge looks completely different when you return. Red
+              emergency lights flash across the room, one of the displays has
+              gone completely black, and sparks occasionally fall from a damaged
+              panel near the wall. The crew are still at their stations, trying
+              to make sense of the information appearing across their screens.
+              Your first officer waves you over to the main console.
+            </p>
+            <p class="speech">
+              "Captain, most of the bridge controls are still responding, but
+              the attack knocked several systems offline. The AI is giving us
+              conflicting reports, and I don't trust half of these readings
+              right now. If we're going to get this ship moving again, we'll
+              need to figure out exactly what is still working." You look down
+              at the main control panel and begin checking the ship's status.
+              <a href="#captains-log">Return to Captain's Log</a>
+            </p>
+            <button id="bridge-display">Check Bridge Display</button>
+          </div>
+        </section>
+        <section id="navigation">
+          <div id="nav-normal">
+            <h2>Navigation</h2>
+            <p>
+              You make your way to navigation. The room is darker than most of
+              the ship, with most of its light coming from maps, radar displays,
+              and the large holographic star chart in the center of the room.
+              The navigation officer is leaning over the main console, checking
+              the route back to Earth.
+            </p>
+            <p class="speech">
+              "Captain, our route is already programmed and the fuel reserves
+              are more than enough to get us home. Unless you're planning a
+              surprise vacation, we shouldn't have anything to worry about." You
+              check the fuel reserves yourself and confirm that the ship has
+              enough for the journey. Before leaving, you notice a tiny
+              unidentified marker near the edge of the radar, but it disappears
+              before you can get a better look at it.
+              <a href="#captains-log">Return to Captain's Log</a>
+            </p>
+          </div>
+          <div id="nav-damaged">
+            <h2>Navigation</h2>
+            <p>
+              When you return to navigation, the holographic star chart is
+              flickering wildly. Several routes appear and disappear as the
+              computer repeatedly tries to determine the ship's location. The
+              navigation officer is rapidly typing commands into the console but
+              doesn't seem to be making much progress.
+            </p>
+            <p class="speech">
+              "Captain, we've got a problem. The attack damaged some of our
+              navigation sensors and the computer can't figure out which
+              readings are accurate. I can still plot a route home, but I can't
+              tell how much fuel we are going to use with our engines not being
+              at 100% do you mind checking the manual reports over at the other
+              end to help me calculate"
+              <a href="#captains-log">Return to Captain's Log</a>
+            </p>
+            <button id="nav-display">Check Navigation Display</button>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <p>&copy Micheal Jones 2026</p>
+      </footer>
+      <script src="./javascript/space.js"></script>
+    </div>
+  </body>
+</html>

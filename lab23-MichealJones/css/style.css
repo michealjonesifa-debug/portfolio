@@ -1,0 +1,151 @@
+/* Micheal Jones, Sept.28, 2026, Lab23 Space captaining */
+/* layout of index.html */
+body {
+  width: 80%;
+  margin: auto;
+}
+
+#little-body {
+  padding: 1%;
+}
+
+nav ul {
+  display: flex;
+  gap: 1rem;
+}
+
+nav li {
+  width: 15%;
+  margin: auto;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+#captains-log {
+  grid-column: span 2;
+}
+
+#navigation {
+  grid-column: span 2;
+}
+
+#captain-damaged,
+#shield-damaged,
+#engine-damaged,
+#comms-damaged,
+#bridge-damaged,
+#nav-damaged {
+  display: none;
+}
+
+/* style of index.html */
+
+body {
+  background-color: #080d17;
+}
+
+#little-body {
+  background-color: #111c2e;
+}
+
+header {
+  background-color: #162a46;
+}
+
+nav {
+  background-color: #0c1728;
+  padding: 1%;
+}
+
+nav a {
+    display: block;
+    padding: 0.7rem;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #36b9e8;
+    background-color: #162a46;
+}
+
+nav a:hover {
+    background-color: #237a9e;
+    color: white;
+}
+
+ol{
+    margin: 1%;
+    padding-left: 2%;
+}
+
+section {
+    background-color: #1b304a;
+    padding: 3%;
+    margin: 1%;
+    border: 2px solid #36b9e8;
+    border-radius: 6px;
+    font-size: large;
+}
+
+p,
+li {
+  color: #dce8f2;
+}
+
+h1{
+    padding:2%
+}
+
+h1,
+h2 {
+  color: #7dd8ff;
+  text-align: center;
+  margin: 1%;
+}
+
+a {
+  color: #65c7ff;
+}
+
+.speech {
+  background-color: #12263b;
+  color: #9ee7ff;
+  border-left: 4px solid #36b9e8;
+  margin: 1%;
+  padding:1%;
+}
+
+button {
+  background-color: #237a9e;
+  color: #ffffff;
+  border: 2px solid #7dd8ff;
+}
+
+#captain-damaged,
+#shield-damaged,
+#engine-damaged,
+#comms-damaged,
+#bridge-damaged,
+#nav-damaged {
+  background-color: #32191d;
+  border: 2px solid #c94b4b;
+}
+
+#captain-damaged h2,
+#shield-damaged h2,
+#engine-damaged h2,
+#comms-damaged h2,
+#bridge-damaged h2,
+#nav-damaged h2 {
+  color: #ff6b5f;
+}
+
+footer p{
+    text-align: center;
+    padding: 2%;
+}
+#operational{
+  display: none;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css" type="text/css">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap" rel="stylesheet">
+    <title>Green Ride Rideshare</title>
+    <!-- Micheal Jones sept.4, 2026, Assignment 2 Rideshare calculator -->
+</head>
+<body>
+    <div class="little-body">
+        <header>
+            <h1>Green Ride Rideshare</h1>
+            <img src="./images/logo.png" alt="">
+        </header>
+        <main>
+            <div class="container">
+                <section id="instructions">
+                    <h2>Getting Your Fare</h2>
+                    <p>
+                        As long as you have javascript enabled a pop-up should appear, please type in the distance(in km) that you are travelling, if you are travelling with a furry friend, and how much tip(in %) you would like to leave.
+                    </p>
+                </section>
+                <div id="results">
+
+                </div>
+                <table id="pricing">
+                    <thead>
+                        <th>Distance</th>
+                        <th>Fare<small>(without tip/pet)</small></th>
+                        <th>With Pet</th>
+                    </thead>
+                    <tr>
+                        <td>5km</td>
+                        <td>$11.00</td>
+                        <td>$13.20</td>
+                    </tr>
+                    <tr>
+                        <td>10km</td>
+                        <td>$18.50</td>
+                        <td>$22.20</td>
+                    </tr>
+                    <tr>
+                        <td>15km</td>
+                        <td>$26.00</td>
+                        <td>$32.20</td>
+                    </tr>
+                    <tr>
+                        <td>20km</td>
+                        <td>$33.50</td>
+                        <td>$40.20</td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+        <footer>
+            <p>page needs javascript to work, please enable it if nothing happens</p>
+            <p id="copyright">&copy Micheal jones 2026</p>
+        </footer>
+    </div>
+    <script src="./javascript/fare-calculator.js"></script>
+</body>
+</html>

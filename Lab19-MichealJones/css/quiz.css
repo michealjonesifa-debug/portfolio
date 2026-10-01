@@ -1,0 +1,55 @@
+@charset "utf 8";
+
+/* Micheal Jones Sept. 10 2026, Lab 19 Space quiz */
+
+/* layout of quiz.html */
+#quiz-container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    h3{
+        grid-column:span 3;
+        text-align: center;
+        margin: 2%;
+    }
+}
+
+/* style of quiz.html */
+body{
+    width: 80%;
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+#little-body{
+    background: linear-gradient(135deg, #101a3a 0%, #1b2559 40%, #3b1d5e 75%, #18234a 100%);
+}
+h1{
+    text-align: center;
+    border: 1px solid white;
+    padding: 2%;
+}
+h2{
+    margin: 2%;
+    text-decoration: underline solid white;
+}
+.opener{
+    margin: 1%;
+    padding: 1%;
+    border: 1px solid white;
+}
+section{
+    margin: 1%;
+    padding: 5%;
+    border: 1px dotted yellow;
+}
+ol{
+    margin: 3%;
+}
+button{
+    margin: 1% 48% 1% 48%;
+}
+footer{
+    padding:3%;
+    border: 1px solid white;
+    text-align: center;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Center Survey</title>
+    <link rel="stylesheet" href="./community-center-survey.css" type="text/css">
+</head>
+<!-- Lab 14 Forms Micheal Jones Aug, 26 2026 -->
+<body>
+    <header>
+        <h1>Let's All Have a Say in our Community Center Events</h1>
+    </header>
+    <main>
+        <form action="#" method="post">
+            <fieldset id="container1">
+                <legend>Your Information</legend>
+                <label for="fname">First Name</label>
+                <input type="text" name="fname" id="fname" placeholder="First Name" required>
+                <label for="lname">Last Name</label>
+                <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+                <label for="e-add">Email Address</label>
+                <input type="email" name="e-add" id="e-add" placeholder="Email Address">
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age" min="5" max="90" required placeholder="age">
+                <label for="dob">Date of Birth</label>
+                <input type="date" name="dob" id="dob" required min="1926-08-26" max="2022-01-01">
+                <label for="attendance">Have you been to the community center before?</label>
+                <input type="radio" name="attendance" id="attendance">
+            </fieldset>
+            <fieldset id="container2">
+                <legend>Future Event ideas</legend>
+                <label for="interest1">Cooking</label>
+                <input type="checkbox" value="cooking" name="interest1" id="interest1">
+                <label for="interest2">Gardening</label>
+                <input type="checkbox" value="gardening" name="interest2" id="interest2">
+                <label for="interest3">Dancing</label>
+                <input type="checkbox" value="dancing" name="interest3" id="interest3">
+                <label for="interest4">Music</label>
+                <input type="checkbox" value="music" name="interest4" id="interest4">
+                <label for="interest5">sports</label>
+                <input type="checkbox" value="sports" name="interest5" id="interest5">
+                <label for="interest6">Yoga</label>
+                <input type="checkbox" value="yoga" name="interest6" id="interest6">
+                <label for="interest7">Board Games</label>
+                <input type="checkbox" value="Board-games" name="interest7" id="interest7">
+                <label for="interest8">sewing/knitting</label>
+                <input type="checkbox" value="sewing" name="interest8" id="interest8">
+                <label for="activities" id="activity-label">Activities you'd like to see</label>
+                <select name="activities" id="activities" multiple>
+                    <option value="concerts">Concerts</option>
+                    <option value="classes">classes</option>
+                    <option value="sports">sporting events</option>
+                    <option value="performances">performances</option>
+                    <option value="gallery">Art galleries</option>
+                    <option value="social">social events</option>
+                </select>
+                <label for="feedback" id="feed-label">Other suggestions or feedback</label>
+                <textarea name="feedback" id="feedback"></textarea>
+            </fieldset>
+            <div id="form-buttons">
+            <input type="submit" value="Submit Feedback" id="submit-feedback">
+            <input type="reset" id="cancel">
+            </div>
+        </form>
+    </main>
+    <footer> &copy Micheal Jones 2026</footer>
+</body>
+</html>

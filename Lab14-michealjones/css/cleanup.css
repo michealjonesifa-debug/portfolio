@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/* Lab 14 forms, Micheal Jones, August 24 2026 */
+
+/* layout for cleanup.css */
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "guide guide"
+        "bring wear"
+        "locations locations"
+        "safety safety";
+    gap: 2rem;
+    padding: 3%;
+}
+.bring{grid-area: bring;}
+#wear{grid-area: wear;}
+#locations{grid-area: locations;}
+#guide{grid-area: guide;}
+#safety{grid-area: safety;}
+
+/* styling of cleanup.css */
+section, aside{
+    border: 2px solid burlywood;
+}
+aside{
+    margin:2%;
+    font-size: large;
+    padding: 1rem
+}
+#guide {
+    text-align: center;
+    padding: 3rem;
+}
+main figure {
+    margin: 1.5rem auto;
+    max-width: 700px;
+}
+main figure img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+}
+#locations{
+    text-align: center;
+}
+ul{
+    list-style: none;
+}

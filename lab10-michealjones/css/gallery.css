@@ -1,0 +1,20 @@
+/* Micheal Jones Aug. 12, 2026 Lab 10 Artist Showcase */
+/* The layout fot the Gallery page */
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tall{
+    max-width: 40%;
+    padding: 3%;
+    margin: auto
+}
+.gallery figure{
+    width: 70%;
+    padding: 3%;
+    margin: auto
+}
+.gallery img{
+    width: 100%;
+    border: 5px solid #654321;
+}

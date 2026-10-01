@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css" type="text/css">
+    <link rel="stylesheet" href="./css/quiz.css" type="text/css">
+    <title>Interactive Space Quiz</title>
+    <!-- Micheal Jones Sept. 10 2026 Lab 19 Space Quiz -->
+</head>
+<body>
+    <div id="little-body">
+        <header>
+            <h1>Conquering the Cosmos Together</h1>
+        </header>
+        <main>
+            <h2>Welcome to Space Cadet Training</h2>
+            <p class="opener">Welcome to training cadet, all cadets need to know whats out there before we embark, and remember the number 1 rule up there <strong>Dont Take Off Your Helmet outside</strong>. Read the questions carefully, and press the button when you are ready to start.</p>
+            <div id="quiz-container">
+                <h3>You need at least 4 points to pass training rookie</h3>
+                <section id="question1">
+                    <p>Mission 1. You spacecraft has detected a mysterious red planet. which planet are you approaching?</p>
+                    <!-- answer is mars or 2 -->
+                    <ol>
+                        <li>Venus</li>
+                        <li>Mars</li>
+                        <li>Jupiter</li>
+                        <li>Mercury</li>
+                    </ol>
+                </section>
+                <section id="question2">
+                    <p>Mission 2. Upon nearing Jupiter HQ asks you find the largest moon to test its gravitional pull compared to the giant planet, which moon are you going to?</p>
+                    <!-- answer is Ganymede or 4 -->
+                    <ol>
+                        <li>Europa</li>
+                        <li>Cyllene</li>
+                        <li>IO</li>
+                        <li>Ganymede</li>
+                    </ol>
+                </section>
+                <section id="question3">
+                    <p>Mission2 continued. As you approach the moon you see glowing lights in the distance. What are you seeing?</p>
+                    <!-- answer is Auroras or 2 -->
+                    <ol>
+                        <li>Auroras</li>
+                        <li>The reflection of random space debris</li>
+                        <li>your fellow cadet with a flashlight</li>
+                        <li>A storm</li>
+                    </ol>
+                </section>
+                <section id="question4">
+                    <!-- answer is Event Horizons or 3 -->
+                    <p>Emergency Alert. You wake to a emergency lights, it seems while exploring outside of our galaxy you have encountered a black hole. Once you pass a certain point you cannot excape what it that boundry called?</p>
+                    <ol>
+                        <li>Singularity</li>
+                        <li>Photon Sphere</li>
+                        <li>Event Horizon</li>
+                        <li>Accretion disk</li>
+                    </ol>
+                </section>
+                <section id="question5">
+                    <p>Mission3. After narrowly escaping the black hole your navigation systems seem to be funcioning incorrectly, you enter what you think is the milky way galaxy. you see a total of 7 planets are you in the right galaxy?</p>
+                    <!-- answer is incorrect too few planets, was gonna go with 9 but didnt want to anger the pluto lovers -->
+                </section>
+                <section id="question6">
+                    <p>Final Mission. You enter the Milky Way galaxy finally, with navigation still not working where do you head towards?</p>
+                    <!-- answer is Orion arm or 1 -->
+                    <ol>
+                        <li>Head for the Orion arm</li>
+                        <li>Towards the center of the galaxy</li>
+                        <li>Right outside the galaxy</li>
+                        <li>The outermost Spiral arm</li>
+                    </ol>
+                </section>
+            </div>
+            <div id="results">
+                <button onclick="startQuiz()">Start training</button>
+            </div>
+        </main>
+        <footer>
+            <p>&copy Micheal Jones 2026</p>
+        </footer>
+    </div>
+    <script src="./javascript/quiz.js"></script>
+</body>
+</html>

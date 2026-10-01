@@ -1,0 +1,68 @@
+/* Micheal Jones Aug. 12, 2026 Lab 10 Artist Showcase */
+/*A nice font that I want to use for these pages*/ 
+*{
+  font-family: 'Vast Shadow';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+/* the layout i want on all pages */
+body{
+    width:90%;
+    margin:auto
+}
+.title{
+    display: flex;
+
+}
+.title img{
+    width:30%
+}
+.title h1{
+    width: 30%;
+    margin: auto;
+    text-align:center
+}
+.title nav{
+    width: 30%;
+    margin: auto;
+}
+nav li{
+    padding: 5%;
+}
+nav a{
+    text-decoration: none;
+}
+h2{text-align: center;
+margin: auto;}
+footer{
+    padding: 2%;
+    text-align: center;
+    border: 5px solid black;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+}
+footer li{
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+/* the styling that is present in all pages */
+body{
+    background: linear-gradient(135deg, #E8D8C3, #B8C7B0, #D5B48A);
+    color: #33271F;
+}
+header {
+    background-color: #395540;
+    color: #F7EBD8;
+}
+h1, h2 {
+    color: #8C4A32;
+}
+footer{background-color:palegoldenrod;}
+/* the nav wasnt visible once clicked it looked visible normally though */
+nav a:visited{
+    color: white
+}

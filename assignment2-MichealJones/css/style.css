@@ -1,0 +1,86 @@
+@charset "utf 8";
+
+/* Micheal Jones, sept.4 2026, assignment 2 */
+
+/* The layout of fare-calculator.html */
+body{
+    width: 80%;
+    margin: auto;
+    font-family: "Vast Shadow", serif;
+}
+header{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    img{
+        width: 100%;
+        height: 100%;
+        max-width: 200px;
+        max-height: 200px;
+        justify-self:center ;
+    }
+    padding: 0% 10% 0 10%
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "instructions pricing"
+    "results pricing";
+}
+#instructions{grid-area: instructions;}
+#pricing{grid-area: pricing;}
+#results{grid-area: results}
+
+/* style of fare-calculator.html */
+body{
+    background: linear-gradient(135deg, #d8f3dc, #74c69d, #40916c);
+}
+.little-body{
+    max-width: 100%;
+    background-color: #60a5fa;
+}
+main{
+    padding: .5%;
+}
+header{
+    border: 2px solid black;
+}
+h1{
+    text-align: center;
+    align-self: center;
+}
+h2{
+    text-align: center;
+}
+#instructions{
+    margin: 1%;
+    padding:3%;
+    border: 2px solid black;
+}
+#results{
+    margin: 1%;
+    padding:5%;
+    border: 2px solid black;
+    text-align: center;
+}
+#pricing{
+    border: 5px solid black;
+    border-collapse: collapse;
+    margin: 2% 5% 2% 5%;
+}
+th,td{
+    border: 1px solid black;
+    padding: .5%;
+}
+footer{
+    text-align: center;
+    border: 2px solid black;
+    padding:1%;
+}
+footer p{
+    margin: 1%;
+    font-size: small;
+}
+#copyright{
+    text-align: end;
+}

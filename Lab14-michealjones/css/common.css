@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+/* Lab 14 forms, Micheal Jones, August 24 2026 */
+
+/* layout for all pages */
+body{
+    width: 80%;
+    margin: auto;
+    max-width: 1400px;
+    min-width: 800px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav ul{
+    display: flex;
+    width:70%;
+    margin:auto
+}
+nav li{
+    display:inline;
+    width:20%;
+    margin: auto;
+}
+#header-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* styling of all pages */
+body{
+    background: linear-gradient(90deg, #4c9a2a, #83cc24, #a7e024);
+}
+.smaller-body{background:
+        linear-gradient(120deg,transparent 25%, rgba(255, 255, 255, 0.45) 50%,transparent 70%),
+        linear-gradient(135deg, #8fc5d8, #e5f4f7, #9eced8, #c8e5e8)
+}
+h1{
+    font-size: xx-large;
+    text-align: end;
+    padding: 8%;
+}
+nav{
+    margin: 1%;
+    background:
+        linear-gradient(120deg,transparent 20%,rgba(255, 255, 255, 0.5) 45%,transparent 60%),
+        linear-gradient(135deg, #dfe8d5, #f5f7ed, #c8d8bc);
+}
+nav li{
+    border: 2px solid burlywood;
+    padding: 1%;
+    text-align: center;
+}
+h2{
+    font-size: x-large;
+    text-align: center;
+}
+footer{
+    display: flex;
+    padding:1rem;
+    background-color:chocolate;
+    color: white;
+}
+footer p{
+    margin: 1%;
+    align-self: center;
+}
+footer ul{
+    margin-left: 75%;
+}
+footer li{justify-self: end;}
+footer a{
+    color:white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:blueviolet
+}
+header img{
+    justify-self: center;
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    max-height: 200px;
+}
